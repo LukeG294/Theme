@@ -7,3 +7,11 @@
 @updateURL      https://raw.githubusercontent.com/Booperdooper255/Brainly-Extension-Theme/main/theme
 =======
 ==/UserStyle== */
+
+
+div [class^="HeaderController__innerwrap--1D0qY"] {
+background:#4fc3f6!important;
+}
+div [class^="HeaderController__subnav--1hTF0"] {
+background:#4fc3f6!important;
+}
