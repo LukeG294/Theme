@@ -24,6 +24,12 @@ background:#4fc3f6!important;
 div [class^="brn-moderation-panel__content"] {
 background:#4fc3f6!important;
 }
+div [class^="sg-menu-list__link"] {
+color:Black!important;
+}
 #html .mint .mint-header {
+background: #4fc3f6!important;
+}
+#html .mint {
 background: #4fc3f6!important;
 }
