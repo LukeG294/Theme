@@ -27,9 +27,21 @@ background:#4fc3f6!important;
 div [class^="sg-menu-list__link"] {
 color:Black!important;
 }
-#html .mint .mint-header {
-background: #4fc3f6!important;
+div [class^="brn-header-placeholder__subnav"] {
+background:#4fc3f6!important;
 }
-#html .mint {
+div [class^="brn-header-placeholder__inner-wrapper"] {
+background:#4fc3f6!important;
+}
+div [class^="brn-placeholder__animation"] {
+animation-iteration-count:0;
+}
+div [class^="sg-label--gray-secondary-light"] {
+background-color: #4fc3f6!important;
+}
+.sg-label--gray-secondary-light{
+background-color: #4fc3f6!important
+}
+#html .mint .mint-header {
 background: #4fc3f6!important;
 }
