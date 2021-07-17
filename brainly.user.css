@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://brainly") {
 /* ==UserStyle==
 @name           Brainly Extension Theme
 @namespace      Booperdooper255
@@ -7,41 +8,153 @@
 @updateURL      https://raw.githubusercontent.com/Booperdooper255/Brainly-Extension-Theme/main/theme
 =======
 ==/UserStyle== */
-
-
 div [class^="HeaderController__innerwrap--1D0qY"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="HeaderController__subnav--1hTF0"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="mint-header"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="HeaderController__header--yjUbB"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="brn-moderation-panel__content"] {
-background:#4fc3f6!important;
+    background: #FF7968!important;
 }
 div [class^="sg-menu-list__link"] {
-color:Black!important;
+    color: Black!important;
 }
 div [class^="brn-header-placeholder__subnav"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="brn-header-placeholder__inner-wrapper"] {
-background:#4fc3f6!important;
+    background: #4fc3f6!important;
 }
 div [class^="brn-placeholder__animation"] {
-animation-iteration-count:0;
+    animation-iteration-count: 0;
+    background: none;
 }
 div [class^="sg-label--gray-secondary-light"] {
-background-color: #4fc3f6!important;
+    background-color: #4fc3f6!important;
 }
-.sg-label--gray-secondary-light{
-background-color: #4fc3f6!important
+.sg-label--gray-secondary-light {
+    background-color: #4fc3f6!important;
+}
+.brn-qpage-next-question-box {
+    border: 2px solid #000000;
+}
+.brn-qpage-next-answer-box {
+    border: 2px solid #000000;
+}
+.sg-box--light {
+    background: #fbbe2e!important;
+}
+.sg-box--border-color-gray-secondary-lightest {
+    border-color: #000000;
+}
+.sg-box--border {
+    border-color: #C3D1DD
 }
 #html .mint .mint-header {
-background: #4fc3f6!important;
+    background: #4fc3f6!important;
+    border-color: #000000
+}
+#html .mint {
+    background: #EDF8FF!important;
+}
+.sg-label--mint-secondary-light {
+    background: #60D399;
+}
+.sg-label--mustard-secondary-light {
+    background: #FEDD8E
+}
+.sg-menu-list__element {
+border-bottom:1px solid black!important 
+}
+}
+
+@-moz-document url-prefix("https://brainly.com/messages/") {
+.sg-box--light{
+background: white!important;
+}
+}
+
+@-moz-document url-prefix("https://brainly.com/app/") {
+.sg-box--light{
+background-color: white!important;
+}
+}
+
+@-moz-document url-prefix("https://brainly.com/moderation/ranking") {
+.sg-box--light {
+    background: white!important;
+}
+.sg-box--border {
+    border-color: black!important;
+}
+}
+
+@-moz-document url-prefix("https://brainly.com/question/") {
+.sg-box--border {
+    border-color: black!important;
+}
+}
+
+@-moz-document url-prefix("https://brainly.com/tasks/archive_mod") {
+#moderate-functions-panel .covering-text .icon{
+background: none
+}
+#moderate-functions-panel .content-scroll {
+    background: white;
+    border-color: #000000;
+}
+#moderate-functions-panel .content-scroll a {
+    color: black
+}
+#moderate-functions-panel .statistics .content-scroll {
+    color: black;
+border-radius: 10px;
+}
+#moderation-all .top .sub-header{
+background-color:#FF7968;
+border: 1px solid black;
+}
+select{
+border: 1px solid black;
+}
+select, textarea, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input{
+color: black;
+border-radius: 10px;
+}
+#moderation-all .content .moderation-item .header{
+background-color: #C3D1DD;
+border-radius: 5px;
+border: 1px solid black;
+}
+#html .mint .mint-header .mint-input{
+border: 2px solid black;
+}
+.btn.disabled, .btn[disabled]{
+background-color: #687B8C;
+}
+.btn{
+text-shadow: none;
+border-radius: 5px;
+}
+#moderation-all {
+border: 1px solid black;
+border-radius: 10px;
+}
+#moderation-all .content .moderation-item{
+border: none;
+}
+#moderation-all .content .moderation-item .content{
+border-radius: 5px;
+border: 1px solid #C3D1DD;
+}
+#moderation-all .content .moderation-item .header .qa{
+color: white;
+}
 }
