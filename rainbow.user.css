@@ -1,0 +1,9 @@
+.sg-box--blue, .sg-header__container, .sg-button--solid-blue, .mint-tabs__tab--active, #html .mint .mint-header, #html .mint #tabs-doj #main_menu>li.active, #html .mint #footer, header[class^="HeaderController"]
+    color #fff !important
+    background linear-gradient(
+180deg
+, #f15a5a,#f0c419,#4eba6f,#2d95bf,#955ba5)
+    animation BackgroundAnimation 6s ease infinite
+    transform translateZ(0)
+    will-change background-position
+    background-size 1% 10000%
