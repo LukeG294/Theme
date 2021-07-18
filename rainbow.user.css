@@ -1,3 +1,15 @@
+
+@-moz-document url-prefix("https://brainly") {
+/* ==UserStyle==
+@name           Brainly Extension Theme
+@namespace      Booperdooper255
+@version        1.0.0
+@author         Anonymous
+@license        MIT
+@updateURL      https://raw.githubusercontent.com/Booperdooper255/Brainly-Extension-Theme/main/theme
+=======
+==/UserStyle== */
+    
 .sg-box--blue, .sg-header__container, .sg-button--solid-blue, .mint-tabs__tab--active, #html .mint .mint-header, #html .mint #tabs-doj #main_menu>li.active, #html .mint #footer, header[class^="HeaderController"]
     color #fff !important
     background linear-gradient(
@@ -7,3 +19,4 @@
     transform translateZ(0)
     will-change background-position
     background-size 1% 10000%
+}
